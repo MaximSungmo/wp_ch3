@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+* { margin:0; padding:0 }
+h1 { 
+	width:210px; 
+	height: 50px;
+	background: url('images/sp_search.png') no-repeat -3px;
+	margin:50px auto;
+	font-size: 0;
+	dipaly:block;
+	float:left;
+	}
+h2 {
+	width:210px; 
+	height: 50px;
+	background: url('images/sp_search.png') no-repeat -3px;
+	margin:50px auto;
+	font-size: 0;
+	dipaly:block;
+	float:left;
+}
+
+
+.search_menu{
+	margin:auto;
+	display:block;
+	float:left;
+	
+}
+#search_set{
+	border:2px solid #03cf5d;
+	margin:50px 20px;
+	width:400px;
+	height:50px;
+	display:block;
+	float:left;
+}
+#kwd{
+	width: 30px;
+	height: 40px;
+	margin: 10px 0 0 0;
+	background: url('images/sp_search.png') no-repeat -24px -60px;
+	
+}
+#dropdown{
+	width: 20px;
+	height: 40px;
+	margin: 10px 0 0 0;
+	background: url('images/sp_search.png') no-repeat -80px -60px;
+}
+#search_tap{
+	background: url('images/sp_main.png') no-repeat -30px -120px ;
+	background-color:#03cf5d
+	width: 35px;
+	margin: 10px 0 0 0;
+	height: 30px;
+	border: 1px #03cf5d;
+	cursor: pointer;
+}
+#search_bar{
+	width: 314px;
+	height: 46px;
+	border: 0;
+}
+
+	
+</style> 
+</head>
+<body>
+
+	<h1 id='naver-logo'>네이버</h1>
+	<h2></h2>
+	<fieldset id='search_set'>
+		<input type="search" id='search_bar' class="search_menu"/>
+		<div class="search_menu" id='kwd'></div>
+		<div class="search_menu" id='dropdown'></div>
+		<input type="button" value='' class="search_menu" id='search_tap'>
+	</fieldset>
+	
+</body>
+</html>
